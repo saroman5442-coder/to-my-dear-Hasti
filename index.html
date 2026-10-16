@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Letter for Hasti 💗</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: #fff0f5;
+            font-family: 'Quicksand', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+            overflow-x: hidden;
+        }
+
+        .letter {
+            position: relative;
+            max-width: 600px;
+            width: 100%;
+            padding: 50px 30px;
+            background: #ffe4ed;
+            border: 3px solid #ff85a8;
+            border-radius: 25px;
+            box-shadow: 0 10px 35px rgba(255, 105, 150, 0.15);
+            animation: appear 1.2s ease;
+        }
+
+        .heart-border {
+            text-align: center;
+            color: #ff4f87;
+            font-size: 28px;
+            letter-spacing: 8px;
+            margin: 5px 0 25px;
+        }
+
+        h1 {
+            color: #ed4b83;
+            text-align: center;
+            font-size: 27px;
+            margin-bottom: 30px;
+        }
+
+        .message {
+            color: #71364d;
+            font-size: 17px;
+            line-height: 2;
+            text-align: left;
+        }
+
+        .signature {
+            text-align: center;
+            color: #ed4b83;
+            font-size: 23px;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+
+        .floating-heart {
+            position: fixed;
+            bottom: -40px;
+            color: #ff4f87;
+            font-size: 28px;
+            animation: floatUp 8s linear infinite;
+            pointer-events: none;
+        }
+
+        .floating-heart:nth-of-type(1) {
+            left: 10%;
+            animation-delay: 0s;
+        }
+
+        .floating-heart:nth-of-type(2) {
+            left: 30%;
+            animation-delay: 2s;
+        }
+
+        .floating-heart:nth-of-type(3) {
+            left: 70%;
+            animation-delay: 1s;
+        }
+
+        .floating-heart:nth-of-type(4) {
+            left: 90%;
+            animation-delay: 3s;
+        }
+
+        @keyframes floatUp {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 0;
+            }
+
+            20% {
+                opacity: 0.8;
+            }
+
+            100% {
+                transform: translateY(-110vh) rotate(25deg);
+                opacity: 0;
+            }
+        }
+
+        @keyframes appear {
+            from {
+                opacity: 0;
+                transform: translateY(25px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .letter {
+                padding: 35px 22px;
+            }
+
+            h1 {
+                font-size: 23px;
+            }
+
+            .message {
+                font-size: 15px;
+                line-height: 2;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="floating-heart">♡</div>
+    <div class="floating-heart">♡</div>
+    <div class="floating-heart">♡</div>
+    <div class="floating-heart">♡</div>
+
+    <main class="letter">
+
+        <div class="heart-border">
+            ♡ ♡ ♡ ♡ ♡
+        </div>
+
+        <h1>To My Dear Hasti 💗</h1>
+
+        <div class="message">
+            Happy Birthday!
+
+            <br><br>
+
+            I'm so happy that we've gotten to talk more and get to know each other better during this time.
+
+            <br><br>
+
+            Honestly, getting to know you feels like stepping onto a path where I discover interesting things at every turn, and it's such a lovely experience.
+
+            <br><br>
+
+            Anyway, even though you're still two years old in my eyes, happy birthday again!
+
+            <br><br>
